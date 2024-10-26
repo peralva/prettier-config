@@ -40,5 +40,5 @@
 		"test": "node --test dist"
 	},
 	"type": "module",
-	"version": "1.0.14"
+	"version": "1.0.15"
 }
