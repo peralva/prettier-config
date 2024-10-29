@@ -10,10 +10,10 @@
 		"prettier": "^3.3.3",
 		"typescript": "^5.6.3"
 	},
-	"exports": "./dist/index.js",
+	"exports": "./lib/index.js",
 	"files": [
-		"dist/index.d.ts",
-		"dist/index.js"
+		"lib/index.d.ts",
+		"lib/index.js"
 	],
 	"homepage": "https://github.com/peralva/prettier-config#readme",
 	"keywords": [
@@ -22,7 +22,7 @@
 		"prettier"
 	],
 	"license": "MIT",
-	"main": "dist",
+	"main": "lib",
 	"name": "@peralva/prettier-config",
 	"peerDependencies": {
 		"prettier": ">=3.0.0"
@@ -37,7 +37,7 @@
 	},
 	"scripts": {
 		"build": "npx tsc",
-		"test": "node --test dist"
+		"test": "node --test lib"
 	},
 	"type": "module",
 	"version": "1.0.15"
