@@ -5,8 +5,8 @@
 	},
 	"description": "Prettier Configuration",
 	"devDependencies": {
-		"@peralva/tsconfig": "^1.0.2",
-		"@types/node": "^22.7.7",
+		"@peralva/tsconfig": "^1.0.5",
+		"@types/node": "^22.8.4",
 		"prettier": "^3.3.3",
 		"typescript": "^5.6.3"
 	},
